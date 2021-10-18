@@ -1,0 +1,320 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+#navbar {
+    display: flex;
+    background: black;
+    border-radius: 23px;
+    font-family:  cursive;
+}
+
+
+#navbar .logo img{
+    height: 135px;
+    width: 200px;
+    
+}
+#navbar .logo{
+    height: 135px;
+    width: 168px;
+    
+}
+
+#navbar ul{
+    
+    display: flex;
+    margin: 25px;
+    
+    margin-right: auto;
+
+    
+}
+
+
+#navbar ul li{
+    list-style: none;
+    padding: 10px;
+    margin: 13px;  
+    text-align: right; 
+   
+    
+}
+
+#navbar ul li a{
+    list-style: none;
+    text-decoration: none; 
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+
+}
+
+#navbar ul li a:hover{
+    list-style: none;
+    text-decoration: none; 
+    color: white;
+    
+    border-radius: 13px;
+    
+    background: #da311b;
+    box-shadow: 0 0 40px #da311b, 0 0 40px #da311b , 0 0 40px #da311b ;
+    
+    transition: all 0.4s ease;
+    font-family: 'Nunito', sans-serif;
+
+     
+}
+
+.btn{
+    height: 40px;
+    width: 150px;
+    margin: 40px;
+    color: white;
+    border-radius: 23px;
+    background-color: #fccd4b;
+    border: #fccd4b;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.btn:hover{
+    height: 40px;
+    width: 100px;
+    margin: 40px;
+    color: white;
+    border-radius: 23px;
+    background-color: rgb(15, 15, 15);
+    border: #fccd4b;
+    transition: all 0.5s ease;
+
+}
+.center{
+    text-align: center;
+    justify-content: center;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 140px 200px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before{
+    content: '';
+    background: url("../pics/telephone-booth-768610.jpg") no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index:-1;
+
+}
+
+#home h1{
+    margin: 12px;
+    padding: 12px;
+    font-size: 1.8rem;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+}
+
+#home p{
+    margin: 12px;
+    padding: 12px;
+    font-size: 3.8rem;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+}
+
+#home .btnn{
+    height: 100px;
+    width: 150px;
+    margin: 40px;
+    color: white;
+    border-radius: 23px;
+    background-color: #fccd4b;
+    border: #fccd4b;
+    
+
+}
+
+ #home .btnn:hover{
+    height: 40px;
+    width: 100px;
+    margin: 40px;
+    color: white;
+    border-radius: 23px;
+    background-color: rgb(15, 15, 15);
+    border: #fccd4b;
+    transition: all 0.5s ease;
+
+}
+
+#services{
+    margin: 34px;
+    display: flex;
+}
+
+
+
+#services .box img{
+    margin: auto;
+    display: block;
+}
+
+
+#services h1{
+    font-size: 1.8rem;
+    padding: 50px;
+    font-family: 'Nunito', sans-serif;
+}
+
+#services .box p{
+    padding: 12px;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+}
+
+#services-container p{
+        padding: 50px;
+        text-align:center;
+        justify-content: center;
+        font-family: 'Nunito', sans-serif;
+}
+#services-container h1{
+    padding: 20px;
+    text-align:center;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+#client-section h1{
+    padding: 50px;
+    margin: 23px;
+    font-family: 'Nunito', sans-serif;
+}
+#client{
+    display: flex;
+
+}
+
+#client .box img{
+    display: absolute;
+    height: 350px;
+    width: 449px;
+    opacity: 0.8;
+}
+
+#client .box img:hover{
+    
+    opacity: 0.7;
+    transition: all 0.5s ease;
+}
+
+#client .box .btnnn{
+    position: absolute;
+    margin: 200px;
+    cursor: pointer;   
+    
+}
+
+#connect{
+    background: #007cba;
+    height: 300px;
+    width: 100%;
+}
+
+#connect p{
+    
+    margin: auto;
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+#connect .btnnn{
+    
+    margin: auto;
+    padding: 4px;
+    display: block;
+    height: 40px;
+    width: 150px;
+    
+    color: white;
+    border-radius: 23px;
+    background-color: #007cba;
+    border:2px solid white;
+    
+}
+
+#connect .btnnn:hover{
+    height: 40px;
+    width: 100px;
+    
+    color:#007cba;
+    border-radius: 23px;
+    background-color: white;
+    border: #fccd4b;
+    transition: all 0.5s ease;
+}
+
+#submission{
+    background: black;
+    height: 500px;
+    display: flex;
+}
+
+#submission .box{
+    display: inline-block;
+}
+
+#submission .box img{
+    padding: 30px;
+    margin: auto;
+    display: block;
+}
+
+#submission p{
+    color: white;
+    padding: 34px;
+    text-align: center;
+    justify-content: center;
+}
+
+#submission h3{
+    color: white;
+    padding: 23px;
+}
+
+#submission ul{
+    padding: 23px;
+    
+}
+
+#submission ul li{
+    padding: 23px;
+    text-decoration: none;
+    
+}
+
+#submission ul li a{
+    color: white;
+    text-decoration: none;
+    font-family:  cursive;
+    
+}
+
+#copyrights{
+    height: 30px;
+    margin: 23px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
